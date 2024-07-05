@@ -3,8 +3,9 @@ body{
     background-image:url(left_background.jpg);
   background-repeat: no-repeat; /* Prevent tiling */
   background-position:right top,left top; /* Positions for each image */
+  
 
-    size: 40%;
+    size:10%;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -14,16 +15,20 @@ body{
   .container{
     display: flex;
     justify-content: center;
-  background-color: rgb(0, 7, 9);
+    background-color: rgb(3, 3, 3);
   }
   .container2{
-    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     justify-content: center;
   background-color: rgb(0, 7, 9);
+  height: 15%;
   }
 
   .footer{
-    margin-left: 50px;
+    margin-left: 30px;
     text-decoration:none ;
     color: rgb(253, 249, 249);
     font-weight: 900;
