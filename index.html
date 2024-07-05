@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+          <div class="container">
+                <a class="nav-item-nav-link" href="/">Hearing Test</a>
+                <a class="nav-item-nav-link" href="{{ url_for('home') }}">Home</a>
+                <a class="nav-item-nav-link" href="/about.html">About</a>
+                <a class="nav-item-nav-link" href="{{ url_for('account') }}">Account</a>
+                <a class="nav-item-nav-link" href="{{ url_for('login') }}">Login</a>
+                <a class="nav-item-nav-link" href="{{ url_for('register') }}">Register</a>
+            </div>
+        </nav>
+      </header>
+  <h1 class="main">Hearing Test Tracker</h1>
+
+  <div class="background-image-container"></div>
+
+  <section id="features">
+    <div class="feature">
+      <img src="test-each-ear.jpg" alt="Test Each Ear Alone" class="feature-image">
+      <h4>Test Each Ear Alone</h4>
+      <p>click to choose which ear you want to test.</p>
+    </div>
+    <div class="feature">
+      <img src="easy-to-use.jpg" alt="Easy to Use" class="feature-image">
+      <h4>Easy to Use</h4>
+      <p>It does not need any special tools.</p>
+    </div>
+    <div class="feature">
+      <img src="save-test-results.jpg" alt="Save Test Results" class="feature-image">
+      <h4>Save Test Results</h4>
+      <p>tests will be automatically saved to your account.</p>
+    </div>
+    <footer>
+      <div class="container2">
+      <h3>Team Members</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/asma-elhadi-006078169/"class="footer">Asma Elhadi (LinkedIn)</a></li>
+      <li><a href="https://github.com/asma100" class="footer">Asma Elhadi (Github)</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

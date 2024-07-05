@@ -1,0 +1,84 @@
+
+body{
+    background-image:url(left_background.jpg);
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position:right top,left top; /* Positions for each image */
+
+    size: 40%;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  background-color: rgb(0, 7, 9);
+  }
+  .container2{
+    display: flex;
+    justify-content: center;
+  background-color: rgb(0, 7, 9);
+  }
+
+  .footer{
+    margin-left: 50px;
+    text-decoration:none ;
+    color: rgb(253, 249, 249);
+    font-weight: 900;
+    font-size: 0.9em;
+
+  }
+
+  .footer:hover{
+    color: rgb(248, 222, 222);
+    cursor: pointer;
+  }
+
+  .nav-item-nav-link{
+    margin-left: 50px;
+    text-decoration:none ;
+    color: rgb(253, 249, 249);
+    font-weight: 900;
+    font-size: 1.5em;
+
+  }
+  .nav-item-nav-link:hover{
+    color: rgb(248, 222, 222);
+    cursor: pointer;
+  }
+  .main{
+    font-size: 4em;
+}
+
+.feature-image {
+    width: 30px; 
+    height: auto; 
+    margin-bottom: 10px;
+  }
+
+
+
+
+.feature h4 {
+   margin-top: 0; 
+    margin-bottom: 10px; /* Add spacing between h3 and p */
+}
+
+.feature p {
+    margin-top: 0; /* Remove top margin if any */
+}
+
+
+#about {
+  /* Existing styles */
+  max-width: 500px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the section horizontally */
+  float: left;
+}
+
+#about p {
+  /* Existing styles */
+  text-align: justify; /* Justify text for better reading flow */
+}

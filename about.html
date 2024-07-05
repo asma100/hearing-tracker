@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+          <div class="container">
+                <a class="nav-item-nav-link" href="/">Hearing Test</a>
+                <a class="nav-item-nav-link" href="{{ url_for('home') }}">Home</a>
+                <a class="nav-item-nav-link" href="{{ url_for('about') }}">About</a>
+                <a class="nav-item-nav-link" href="{{ url_for('account') }}">Account</a>
+                <a class="nav-item-nav-link" href="{{ url_for('login') }}">Login</a>
+                <a class="nav-item-nav-link" href="{{ url_for('register') }}">Register</a>
+            </div>
+        </nav>
+      </header>
+  <h1 class="main">Hearing Test Tracker</h1>
+
+</section>
+<section id="about">
+  <h2>About the Project</h2>
+  <p>
+    I worked as a biomedical engineer at an ENT (Ear, Nose, and Throat) hospital for nearly two years. During that time, I observed the critical role that hearing tests play in diagnosing hearing issues and how many people struggle with these problems. Unfortunately, due to the war in my country, all the equipment was lost.
+
+    This situation inspired me to create a website that could perform some of these essential hearing tests, providing valuable support to doctors in their diagnostic processes. Additionally, I envisioned the website as a tool to save and track hearing test results over time, allowing individuals to monitor their hearing health and assist doctors with historical data.
+
+    This is a Portfolio Project for Holberton School. You can find the code on Github: 
+  </p>
+  <a class="nav" href="https://github.com/asma100/Hearing_Test_Tracker">Hearing test tracker</a>
+</section>
+
+
+
+</body>
+</html>
+
